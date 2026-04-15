@@ -1,0 +1,55 @@
+.space {
+    background-image: url("space.jpg");
+    position: absolute;
+    width: 5200px;
+    height: 2500px;
+   }
+.spacesuit {
+    position: absolute;
+    top: 800px;
+    left: 3000px;
+    animation: suit 30s infinite linear;
+    width: 200px;
+    height: 200px;
+    z-index: 4;
+}
+
+
+@keyframes suit{
+	0% { left: 1000px; }
+	100% { left: 2000px; }
+}
+
+.telescope {
+    position: absolute;
+    left: 200px;
+    animation: telescope 30s infinite linear;
+    width: 1000px;
+    height: 800px;
+    z-index: 3;
+}
+
+@keyframes telescope {
+    0% { bottom: 500px;}
+    100% { bottom: 1000px;}
+}
+
+.spaceship {
+    position: absolute;
+    left: 2000px;
+    bottom: 300px;
+    rotate: 67deg;
+    width: 2400px;
+    height: 2200px;
+    z-index: 2;
+    animation: spacesship 30s infinite linear;
+}
+
+@keyframes spacesship {
+ 0% { left: 2400px;}
+ 100% { right: 1200px;}
+ }
+
+ 
+
+
